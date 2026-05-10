@@ -1,0 +1,23 @@
+name: partyup_flutter_prototype
+description: PartyUp event management Flutter prototype in Mongolian with mock auth, event feed, map, admin panel, and security tactics.
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/map.png
